@@ -35,6 +35,24 @@
       "companyProfile": "messageImage_1709173831435-1717028060123.jpg",
       "companyWhitepaper": "quiz-1-1717028060124.pdf",
       "investors": []
+    },
+    {
+      "id": "b4e1e846b5e",
+      "companyName": "BOOP IT",
+      "description": "mencoba321",
+      "category": "Financial",
+      "contactPerson": "085711207595",
+      "emailCompany": "hughielika123@gmail.com",
+      "companyAddress": "Bandung",
+      "deadline": "2024-06-01",
+      "targetAmount": "100000",
+      "minimumInvestment": "1000",
+      "raised": 0,
+      "timePeriod": "2024-05-31",
+      "returnOnInvestment": "2000",
+      "companyProfile": "sHjLx0ca_400x400-1717028357620.jpg",
+      "companyWhitepaper": "Tugas ke 2-1717028357621.pdf",
+      "investors": []
     }
   ]
 }
