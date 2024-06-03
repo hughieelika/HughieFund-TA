@@ -82,7 +82,7 @@ export default function CreateCampaignForm() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/contacts")
+      .get("http://localhost:5001/contacts")
       .then((response) => {
         setContacts(response.data);
       })
@@ -131,7 +131,7 @@ export default function CreateCampaignForm() {
 
     if (isUpdate.status) {
       axios
-        .put(`http://localhost:5000/contacts/${isUpdate.id}`, updatedCampaign)
+        .put(`http://localhost:5001/contacts/${isUpdate.id}`, updatedCampaign)
         .then(() => {
           setContacts((prevContacts) =>
             prevContacts.map((contact) =>
@@ -152,7 +152,7 @@ export default function CreateCampaignForm() {
       };
 
       axios
-        .post("http://localhost:5000/contacts", newCampaign)
+        .post("http://localhost:5001/contacts", newCampaign)
         .then((response) => {
           setContacts([...contacts, response.data]);
           setCampaign({

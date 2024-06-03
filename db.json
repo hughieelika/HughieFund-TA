@@ -11,7 +11,7 @@
       "deadline": "2024-06-05",
       "targetAmount": "10",
       "minimumInvestment": "1",
-      "raised": 0,
+      "raised": 5,
       "timePeriod": "2024-04-29",
       "returnOnInvestment": "45",
       "companyProfile": "Untitled design (2)-1717027778040.png",
@@ -52,6 +52,24 @@
       "returnOnInvestment": "2000",
       "companyProfile": "sHjLx0ca_400x400-1717028357620.jpg",
       "companyWhitepaper": "Tugas ke 2-1717028357621.pdf",
+      "investors": []
+    },
+    {
+      "id": "80860f62964",
+      "companyName": "Test TA 2",
+      "description": "Tugas Akhir Testing",
+      "category": "Transportation",
+      "contactPerson": "085711207595",
+      "emailCompany": "hughie@gmail.com",
+      "companyAddress": "Bandung",
+      "deadline": "2024-09-10",
+      "targetAmount": "1000000",
+      "minimumInvestment": "998",
+      "raised": 0,
+      "timePeriod": "2024-09-01",
+      "returnOnInvestment": "120",
+      "companyProfile": "harambe 2-1717389930369.jpeg",
+      "companyWhitepaper": "Tugas 7_Relationship Marketing_23423008_18220089-1717389930370.pdf",
       "investors": []
     }
   ]

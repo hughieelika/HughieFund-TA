@@ -38,7 +38,7 @@ export default function ProjectList() {
     const userCampaignsData = getUserCampaigns();
     const fetchContacts = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/contacts");
+        const response = await axios.get("http://localhost:5001/contacts");
         setContacts(response.data);
       } catch (error) {
         console.error("Error fetching contacts:", error);
@@ -103,7 +103,7 @@ export default function ProjectList() {
       };
 
       await axios.put(
-        `http://localhost:5000/contacts/${donateCampaign.id}`,
+        `http://localhost:5001/contacts/${donateCampaign.id}`,
         updatedContact
       );
 
